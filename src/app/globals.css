@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@700&family=Alata&family=Alatsi&family=Fahkwang:wght@700&display=swap');
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+
+
+ 
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+}
+.square {
+width: 161px;
+height: 134px;
+background-color: rgb(212 212 216);
+}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.header-container {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  flex: 1;
+  justify-items: center;
+  justify-content: center;
+}
+.logo-image {
+  width: 265px;
+  height: 122px;
+  position: absolute;
+  left: -20px;
+  top: 24px;
+}
+.logo-txt {
+  position: absolute;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  top: 56px;
+  left: 153px;
+  font-family: 'Fahkwang', sans-serif;
+
+}
+.userIcon {
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.user-icon-box {
+  height: 112px;
+  width: 103px;
+}
+.login {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Alatsi', sans-serif;
+}
+.title {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 50px;
+  font-family: 'Akshar', sans-serif;
+}
+.button-group-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.btn-wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 196px;
+  gap: 1em;
+}
+.block {
+  background-color: rgb(212 212 216);
+  width: 166px;
+  height: 116px;
+}
+.block-txt {
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'Alata', sans-serif;
+}
+.cards-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
